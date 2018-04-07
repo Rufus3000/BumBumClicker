@@ -1,0 +1,6 @@
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker.Backend\bin\Debug\BumBumClicker.Backend.dll
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker.Backend\bin\Debug\BumBumClicker.Backend.pdb
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker.Backend\obj\Debug\BumBumClicker.Backend.csprojResolveAssemblyReference.cache
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker.Backend\obj\Debug\BumBumClicker.Backend.csproj.CoreCompileInputs.cache
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker.Backend\obj\Debug\BumBumClicker.Backend.dll
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker.Backend\obj\Debug\BumBumClicker.Backend.pdb

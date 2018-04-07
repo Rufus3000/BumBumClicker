@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BumBumClicker.Views.MainPage"
+             xmlns:viewModels="clr-namespace:BumBumClicker.ViewModels"
+             BindingContext="{viewModels:MainPageViewModel}"
+             Title="BumBumClicker"
+             xmlns:local="clr-namespace:BumBumClicker">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Store" Clicked="Store_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="BumBumClicker" />
+            <Button Text="Bum" Command="{Binding ClickCommand}"/>
+            <Label Text="number of Bums"/>
+            <Label Text="{Binding Bums}" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

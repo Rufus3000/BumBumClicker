@@ -1,0 +1,16 @@
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\bin\Debug\netstandard2.0\BumBumClicker.deps.json
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\bin\Debug\netstandard2.0\BumBumClicker.dll
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\bin\Debug\netstandard2.0\BumBumClicker.pdb
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.csproj.CoreCompileInputs.cache
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.App.xaml.g.cs
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.MainPage.xaml.g.cs
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.AssemblyInfoInputs.cache
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.AssemblyInfo.cs
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.dll
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.pdb
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.Views.MainPage.xaml.g.cs
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.csprojResolveAssemblyReference.cache
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.Views.BuildingPage.xaml.g.cs
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\bin\Debug\netstandard2.0\BumBumClicker.Backend.dll
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\bin\Debug\netstandard2.0\BumBumClicker.Backend.pdb
+C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.csproj.CopyComplete
