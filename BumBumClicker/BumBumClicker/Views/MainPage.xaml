@@ -7,14 +7,15 @@
              Title="BumBumClicker"
              xmlns:local="clr-namespace:BumBumClicker">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Store" Clicked="Store_Clicked"/>
+        <ToolbarItem  Clicked="Store_Clicked" Icon="ic_shop_white_24dp.png">
+            
+        </ToolbarItem>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="BumBumClicker" />
-            <Button Text="Bum" Command="{Binding ClickCommand}"/>
-            <Label Text="number of Bums"/>
-            <Label Text="{Binding Bums}" />
+            <Button Text="Bum" WidthRequest="120" HeightRequest="120" BorderRadius="60" HorizontalOptions="Center" FontSize="Large" Command="{Binding ClickCommand}"/>
+            <Label Text="number of Bums" FontSize="Large" HorizontalOptions="Center"/>
+            <Label Text="{Binding Bums}" FontSize="Large" HorizontalOptions="Center"/>
 
         </StackLayout>
     </ContentPage.Content>

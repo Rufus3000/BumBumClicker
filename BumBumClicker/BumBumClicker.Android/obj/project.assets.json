@@ -727,11 +727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker.Android\\BumBumClicker.Android.csproj",
+      "projectUniqueName": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker.Android\\BumBumClicker.Android.csproj",
       "projectName": "BumBumClicker.Android",
-      "projectPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker.Android\\BumBumClicker.Android.csproj",
+      "projectPath": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker.Android\\BumBumClicker.Android.csproj",
       "packagesPath": "C:\\Users\\Honza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker.Android\\obj\\",
+      "outputPath": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -748,8 +748,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj": {
-              "projectPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj"
+            "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj": {
+              "projectPath": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj"
             }
           }
         }

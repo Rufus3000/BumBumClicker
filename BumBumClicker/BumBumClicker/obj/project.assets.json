@@ -402,11 +402,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj",
+      "projectUniqueName": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj",
       "projectName": "BumBumClicker",
-      "projectPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj",
+      "projectPath": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj",
       "packagesPath": "C:\\Users\\Honza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker\\obj\\",
+      "outputPath": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -425,8 +425,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker.Backend\\BumBumClicker.Backend.csproj": {
-              "projectPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker.Backend\\BumBumClicker.Backend.csproj"
+            "D:\\Git\\BumBumClicker\\BumBumClicker.Backend\\BumBumClicker.Backend.csproj": {
+              "projectPath": "D:\\Git\\BumBumClicker\\BumBumClicker.Backend\\BumBumClicker.Backend.csproj"
             }
           }
         }

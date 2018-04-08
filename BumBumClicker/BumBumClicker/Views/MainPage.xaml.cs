@@ -11,7 +11,7 @@ using Xamarin.Forms.Xaml;
 namespace BumBumClicker.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MainPage : ContentPage
+    public partial class MainPage : ContentPage
 	{
         private MainPageViewModel viewModel;
 

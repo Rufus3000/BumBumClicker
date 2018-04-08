@@ -804,11 +804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker.iOS\\BumBumClicker.iOS.csproj",
+      "projectUniqueName": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker.iOS\\BumBumClicker.iOS.csproj",
       "projectName": "BumBumClicker.iOS",
-      "projectPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker.iOS\\BumBumClicker.iOS.csproj",
+      "projectPath": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker.iOS\\BumBumClicker.iOS.csproj",
       "packagesPath": "C:\\Users\\Honza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker.iOS\\obj\\",
+      "outputPath": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -825,8 +825,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj": {
-              "projectPath": "C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj"
+            "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj": {
+              "projectPath": "D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker\\BumBumClicker.csproj"
             }
           }
         }
