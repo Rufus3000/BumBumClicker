@@ -11,38 +11,80 @@ namespace BumBumClicker.ViewModels.ItemViewModel
 
         public BuildingItemViewModel(Building building)
         {
+
+            model = building;
+
             this.model = building;
+
         }
 
         public string Title
         {
             get
             {
-                return this.model.Title;
+
+                return model.Title;
             }
             set
             {
-                if (this.model.Title != value)
+                if (model.Title != value)
                 {
-                    this.model.Title = value;
-                    this.OnPropertyChanged();
+                    model.Title = value;
+                    OnPropertyChanged();
+                    return this.model.Title;
                 }
+
             }
         }
-
         public string Subtitle
         {
             get
             {
-                return this.model.Description;
+
+                return model.Description;
             }
             set
             {
-                if (this.model.Description != value)
+                if (model.Description != value)
                 {
-                    this.model.Description = value;
-                    this.OnPropertyChanged(nameof(this.Subtitle));
+                    model.Description = value;
+                    OnPropertyChanged(nameof(Subtitle));
                 }
+            }
+        }
+
+        public string Image
+        {
+            get
+            {
+                return model.Image;
+            }
+            set
+            {
+                if (model.Image != value)
+                {
+                    model.Image = value;
+                    OnPropertyChanged(nameof(Image));
+                }
+            }
+        }
+
+        public int Price
+        {
+            get
+            {
+                return model.Price;
+            }
+            set
+            {
+                if (model.Price != value)
+                {
+                    model.Price = value;
+                    OnPropertyChanged(nameof(Price));
+
+                return this.model.Description;
+            }
+
             }
         }
     }

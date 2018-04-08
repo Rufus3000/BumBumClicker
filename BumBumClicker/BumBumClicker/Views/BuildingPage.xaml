@@ -1,16 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:BumBumClicker.ViewModels"
+             BindingContext="{viewModels:BuildingViewModel}"
              x:Class="BumBumClicker.Views.BuildingPage">
-   
-        <ContentPage.Content>
+    <ContentPage.Content>
         <ListView HasUnevenRows="True" x:Name="usersListView" CachingStrategy="RecycleElement" ItemsSource="{Binding Buildings}">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <StackLayout Margin="16">
+                        <StackLayout Margin="16">
+                            <Image Source="{Binding Image}"></Image>
+                        <StackLayout>
+                            <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Medium"/>
+                            <Label Text="{Binding Subtitle}" FontSize="Small"/>
+                        </StackLayout>
+                        <Label Text="{Binding Price}" FontSize="Medium"></Label>
+
                         <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Medium"/>
                         <Label Text="{Binding Subtitle}" FontSize="Small"/>
+
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>

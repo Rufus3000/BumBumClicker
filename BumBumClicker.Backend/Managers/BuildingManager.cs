@@ -10,6 +10,17 @@ namespace BumBumClicker.Backend.Managers
     public class BuildingManager
     {
         private static List<Building> buildings = new List<Building>();
+        
+
+        public BuildingManager()
+        {
+            Building building = new Building();
+            building.Title = "Pickaxe";
+            building.Price = 0;
+            building.Production = 0;
+            building.Description = "Diamantový krumpáč";
+            buildings.Add(building);
+        }
 
         public async Task<bool> AddViewPoint(Building building)
         {

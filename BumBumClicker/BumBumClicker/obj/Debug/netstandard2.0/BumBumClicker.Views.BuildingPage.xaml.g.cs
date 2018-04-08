@@ -11,8 +11,7 @@
 namespace BumBumClicker.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Honza\\source\\repos\\BumBumClicker\\BumBumClicker\\BumBumClicker\\Views\\Build" +
-        "ingPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Git\\BumBumClicker\\BumBumClicker\\BumBumClicker\\Views\\BuildingPage.xaml")]
     public partial class BuildingPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
