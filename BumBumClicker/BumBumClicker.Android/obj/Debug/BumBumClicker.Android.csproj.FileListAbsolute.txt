@@ -196,10 +196,3 @@ D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\res\drawable-
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\res\drawable-xhdpi\ic_shop_white_24dp.png
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\res\drawable-hdpi\ic_shop_white_24dp.png
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\res\drawable\ic_shop_white_24dp.png
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker.Android.dll
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\BumBumClicker.Android.dll.mdb
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\BumBumClicker.Backend.dll.mdb

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BumBumClicker.Views.MainPage"
+             xmlns:converters="clr-namespace:BumBumClicker.Converters"
              xmlns:viewModels="clr-namespace:BumBumClicker.ViewModels"
              BindingContext="{viewModels:MainPageViewModel}"
              Title="BumBumClicker"
@@ -11,12 +12,17 @@
             
         </ToolbarItem>
     </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageSourceConverter x:Key="ImageSourceConverter"></converters:ImageSourceConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Bum" WidthRequest="120" HeightRequest="120" BorderRadius="60" HorizontalOptions="Center" FontSize="Large" Command="{Binding ClickCommand}"/>
-            <Label Text="number of Bums" FontSize="Large" HorizontalOptions="Center"/>
+            <Button Text="Bum" WidthRequest="240" HeightRequest="240" BorderRadius="120" HorizontalOptions="Center" FontSize="Large" Command="{Binding ClickCommand}" Image="{Binding ImageData,Converter={StaticResource ImageSourceConverter}}"/>
+            <Label Text="Number of Bums" FontSize="Large" HorizontalOptions="Center" />
             <Label Text="{Binding Bums}" FontSize="Large" HorizontalOptions="Center"/>
-
+            <Button Command="{Binding AddPictureCommand}" Text="Přidat obrázek" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

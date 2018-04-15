@@ -31,7 +31,7 @@ namespace BumBumClicker.ViewModels.ItemViewModel
                 {
                     model.Title = value;
                     OnPropertyChanged();
-                    return this.model.Title;
+                    
                 }
 
             }
@@ -82,7 +82,7 @@ namespace BumBumClicker.ViewModels.ItemViewModel
                     model.Price = value;
                     OnPropertyChanged(nameof(Price));
 
-                return this.model.Description;
+               
             }
 
             }
