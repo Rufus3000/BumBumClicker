@@ -6,11 +6,12 @@
              xmlns:viewModels="clr-namespace:BumBumClicker.ViewModels"
              BindingContext="{viewModels:MainPageViewModel}"
              Title="BumBumClicker"
-             xmlns:local="clr-namespace:BumBumClicker">
+             xmlns:local="clr-namespace:BumBumClicker"
+             >
     <ContentPage.ToolbarItems>
-        <ToolbarItem  Clicked="Store_Clicked" Icon="ic_shop_white_24dp.png">
-            
-        </ToolbarItem>
+        <ToolbarItem  Clicked="Store_Clicked" Icon="ic_shop_white_24dp.png"></ToolbarItem>
+        <ToolbarItem  Clicked="Achievements_Clicked" Icon="baseline_assignment_turned_in_white_24.png"></ToolbarItem>
+        <ToolbarItem  Clicked="Profile_Clicked" Icon="baseline_face_white_24.png"></ToolbarItem>
     </ContentPage.ToolbarItems>
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -19,10 +20,10 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Bum" WidthRequest="240" HeightRequest="240" BorderRadius="120" HorizontalOptions="Center" FontSize="Large" Command="{Binding ClickCommand}" Image="{Binding ImageData,Converter={StaticResource ImageSourceConverter}}"/>
-            <Label Text="Number of Bums" FontSize="Large" HorizontalOptions="Center" />
-            <Label Text="{Binding Bums}" FontSize="Large" HorizontalOptions="Center"/>
-            <Button Command="{Binding AddPictureCommand}" Text="Přidat obrázek" HorizontalOptions="Center"/>
+            <Button Text="Bum" WidthRequest="240" HeightRequest="240" CornerRadius="120"
+                        HorizontalOptions="Center" FontSize="Large" Command="{Binding ClickCommand}" />
+                <Label Text="Number of Bums" FontSize="Large" HorizontalOptions="Center" />
+                <Label Text="{Binding Bums}" FontSize="Large" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

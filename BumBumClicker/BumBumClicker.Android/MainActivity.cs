@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -22,7 +21,6 @@ namespace BumBumClicker.Droid
         public Java.IO.File ImageFile;
 
         internal static MainActivity Instance;
-
         protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;

@@ -16,6 +16,8 @@ using Xamarin.Forms;
 using Java.IO;
 using Android.Provider;
 
+[assembly: Dependency(typeof(PicturePicker))]
+
 namespace BumBumClicker.Droid.DependecyServices
 {
     public class PicturePicker : IPicturePicker

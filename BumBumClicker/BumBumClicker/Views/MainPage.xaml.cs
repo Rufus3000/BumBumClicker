@@ -10,7 +10,9 @@ using Xamarin.Forms.Xaml;
 
 namespace BumBumClicker.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+    using BumBumClicker.Converters;
+
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : ContentPage
 	{
         private MainPageViewModel viewModel;
@@ -26,6 +28,13 @@ namespace BumBumClicker.Views
         {
             this.Navigation.PushAsync(new BuildingPage());
         }
-        
-	}
+	    private void Achievements_Clicked(object sender, EventArgs e)
+	    {
+	        this.Navigation.PushAsync(new AchievementPage());
+	    }
+	    private void Profile_Clicked(object sender, EventArgs e)
+	    {
+	        this.Navigation.PushAsync(new ProfilePage());
+	    }
+    }
 }
