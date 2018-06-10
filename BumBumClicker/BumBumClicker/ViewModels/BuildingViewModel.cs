@@ -12,6 +12,11 @@ namespace BumBumClicker.ViewModels
     {
         private List<BuildingItemViewModel> buildings;
 
+        public BuildingViewModel()
+        {
+            this.LoadData();
+        }
+
         public async Task LoadData()
         {
             var manager = new BuildingManager();

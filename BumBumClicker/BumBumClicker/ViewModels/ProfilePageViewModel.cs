@@ -49,6 +49,5 @@ namespace BumBumClicker.ViewModels
             }
         }
         public Command AddPictureCommand { get; set; }
-        //<Button Command="{Binding AddPictureCommand}" Text="Přidat obrázek" HorizontalOptions="Center"/>
     }
 }

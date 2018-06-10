@@ -196,6 +196,10 @@ D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\android\asset
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\android\assets\System.Web.Services.pdb
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\android\assets\System.Xml.Linq.pdb
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\android\assets\System.Xml.pdb
+D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\res\drawable\baseline_assignment_turned_in_24.xml
+D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\res\drawable\baseline_face_24.xml
+D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\res\drawable\baseline_assignment_turned_in_white_24.png
+D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\res\drawable\baseline_face_white_24.png
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker.Android.dll
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\BumBumClicker.Android.dll.mdb
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb

@@ -17,7 +17,6 @@ C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.csprojResolveAssemblyReference.cache
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.csproj.CoreCompileInputs.cache
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.App.xaml.g.cs
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.MainPage.xaml.g.cs
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.Views.BuildingPage.xaml.g.cs
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.Views.MainPage.xaml.g.cs
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.AssemblyInfoInputs.cache
@@ -30,3 +29,5 @@ D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\bin\Debug\netstandard2.0\BumBum
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\bin\Debug\netstandard2.0\BumBumClicker.Backend.dll
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\bin\Debug\netstandard2.0\BumBumClicker.Backend.pdb
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.csproj.CopyComplete
+D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.Views.AchievementPage.xaml.g.cs
+D:\Git\BumBumClicker\BumBumClicker\BumBumClicker\obj\Debug\netstandard2.0\BumBumClicker.Views.ProfilePage.xaml.g.cs

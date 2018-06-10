@@ -19,7 +19,6 @@
 
                         <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Medium"/>
                         <Label Text="{Binding Subtitle}" FontSize="Small"/>
-
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>
