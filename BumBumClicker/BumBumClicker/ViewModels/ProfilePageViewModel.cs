@@ -8,13 +8,26 @@ using Xamarin.Forms;
 
 namespace BumBumClicker.ViewModels
 {
+    using BumBumClicker.Backend.Data;
+    using BumBumClicker.Backend.Models;
+
     class ProfilePageViewModel : ViewModel
     {
         private byte[] imageData = { 0x0000 };
 
+        private string name = "";
+
         public ProfilePageViewModel()
         {
+            UserDatabaseController controller = new UserDatabaseController();
+            var user = controller.GetUser();
+            if (user != null)
+            {
+                imageData = user.Image;
+                name = user.Name;
+            }
             AddPictureCommand = new Command(AddPictureCommand_Execute);
+            SaveCommand = new Command(this.SaveCommand_Execute);
         }
 
         private async void AddPictureCommand_Execute(object obj)
@@ -30,6 +43,15 @@ namespace BumBumClicker.ViewModels
             else if (string.Equals(camera, result))
             {
                 ImageData = await picturePicker.GetPictureFromCamera();
+            }
+        }
+
+        private async void SaveCommand_Execute()
+        {
+            if(Name != "")
+            {
+                User user = new User(Name, ImageData);
+                App.UserDatabase.SaveUser(user);
             }
         }
         
@@ -48,6 +70,24 @@ namespace BumBumClicker.ViewModels
                 }
             }
         }
+
+        public string Name
+        {
+            get
+            {
+                return this.name;
+            }
+            set
+            {
+                if (this.name != value)
+                {
+                    this.name = value;
+                    this.OnPropertyChanged(nameof(Name));
+                }
+            }
+        }
+
         public Command AddPictureCommand { get; set; }
+        public Command SaveCommand { get; set; }
     }
 }

@@ -36,7 +36,7 @@ namespace BumBumClicker.ViewModels.ItemViewModel
 
             }
         }
-        public string Subtitle
+        public string Description
         {
             get
             {
@@ -48,23 +48,7 @@ namespace BumBumClicker.ViewModels.ItemViewModel
                 if (model.Description != value)
                 {
                     model.Description = value;
-                    OnPropertyChanged(nameof(Subtitle));
-                }
-            }
-        }
-
-        public string Image
-        {
-            get
-            {
-                return model.Image;
-            }
-            set
-            {
-                if (model.Image != value)
-                {
-                    model.Image = value;
-                    OnPropertyChanged(nameof(Image));
+                    OnPropertyChanged(nameof(Description));
                 }
             }
         }
@@ -81,11 +65,9 @@ namespace BumBumClicker.ViewModels.ItemViewModel
                 {
                     model.Price = value;
                     OnPropertyChanged(nameof(Price));
-
-               
-            }
-
+                }
             }
         }
+
     }
 }

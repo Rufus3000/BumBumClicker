@@ -8,8 +8,14 @@ using Xamarin.Forms.Xaml;
 
 namespace BumBumClicker
 {
-	public partial class App : Application
-	{
+    using BumBumClicker.Backend.Data;
+
+    public partial class App : Application
+    {
+        private static BuildingDatabaseController buildingDatabase;
+
+        private static UserDatabaseController userDatabase;
+
 		public App ()
 		{
 			InitializeComponent();
@@ -31,5 +37,25 @@ namespace BumBumClicker
 		{
 			// Handle when your app resumes
 		}
+
+        public static UserDatabaseController UserDatabase
+        {
+            get
+            {
+                if(userDatabase == null)
+                    userDatabase = new UserDatabaseController();
+                return userDatabase;
+            }
+        }
+
+        public static BuildingDatabaseController BuildingDatabase
+        {
+            get
+            {
+                if(buildingDatabase == null)
+                    buildingDatabase = new BuildingDatabaseController();
+                return buildingDatabase;
+            }
+        }
 	}
 }

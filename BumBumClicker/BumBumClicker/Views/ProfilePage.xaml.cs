@@ -15,6 +15,6 @@ namespace BumBumClicker.Views
 		public ProfilePage ()
 		{
 			InitializeComponent ();
-		}
+        }
 	}
 }

@@ -28,10 +28,6 @@ namespace BumBumClicker.Views
         {
             this.Navigation.PushAsync(new BuildingPage());
         }
-	    private void Achievements_Clicked(object sender, EventArgs e)
-	    {
-	        this.Navigation.PushAsync(new AchievementPage());
-	    }
 	    private void Profile_Clicked(object sender, EventArgs e)
 	    {
 	        this.Navigation.PushAsync(new ProfilePage());

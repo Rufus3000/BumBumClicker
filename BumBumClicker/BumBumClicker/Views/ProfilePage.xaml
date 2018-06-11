@@ -14,7 +14,8 @@
         <StackLayout>
             <Image Source="{Binding ImageData, Converter={StaticResource ImageSourceConverter}}" />
             <Button Command="{Binding AddPictureCommand}" Text="Přidat obrázek" HorizontalOptions="Center"/>
-            <Entry Text="NickName"></Entry>
+            <Entry Text="{Binding Name}"></Entry>
+            <Button Command="{Binding SaveCommand}" Text="Save" HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
