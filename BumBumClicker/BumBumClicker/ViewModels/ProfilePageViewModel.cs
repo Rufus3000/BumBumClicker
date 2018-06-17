@@ -13,6 +13,7 @@ namespace BumBumClicker.ViewModels
 
     class ProfilePageViewModel : ViewModel
     {
+        private int userId = 0;
         private byte[] imageData = { 0x0000 };
 
         private string name = "";
@@ -50,7 +51,7 @@ namespace BumBumClicker.ViewModels
         {
             if(Name != "")
             {
-                User user = new User(Name, ImageData);
+                User user = new User( Name, ImageData);
                 App.UserDatabase.SaveUser(user);
             }
         }

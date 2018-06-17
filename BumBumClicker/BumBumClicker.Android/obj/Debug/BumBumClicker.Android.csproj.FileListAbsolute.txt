@@ -95,7 +95,6 @@ C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker.Android\bi
 C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\linksrc\BumBumClicker.Backend.dll.mdb
 C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker.Backend.dll.mdb
 C:\Users\Honza\source\repos\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\android\assets\BumBumClicker.Backend.dll.mdb
-D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\BumBumClicker.Android.csprojResolveAssemblyReference.cache
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker.Android.dll
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker.Android.pdb
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\com.companyname.BumBumClicker.apk
@@ -104,6 +103,7 @@ D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker.dll
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker.Backend.pdb
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\bin\Debug\BumBumClicker.pdb
+D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\BumBumClicker.Android.csprojResolveAssemblyReference.cache
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\BumBumClicker.Android.csproj.CoreCompileInputs.cache
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\BumBumClicker.Android.csproj.CopyComplete
 D:\Git\BumBumClicker\BumBumClicker\BumBumClicker.Android\obj\Debug\BumBumClicker.Android.dll

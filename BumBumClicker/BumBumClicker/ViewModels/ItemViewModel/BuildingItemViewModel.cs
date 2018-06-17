@@ -11,11 +11,15 @@ namespace BumBumClicker.ViewModels.ItemViewModel
 
         public BuildingItemViewModel(Building building)
         {
-
-            model = building;
-
             this.model = building;
+        }
 
+        public int Id
+        {
+            get
+            {
+                return this.model.Id;
+            }
         }
 
         public string Title
@@ -36,22 +40,6 @@ namespace BumBumClicker.ViewModels.ItemViewModel
 
             }
         }
-        public string Description
-        {
-            get
-            {
-
-                return model.Description;
-            }
-            set
-            {
-                if (model.Description != value)
-                {
-                    model.Description = value;
-                    OnPropertyChanged(nameof(Description));
-                }
-            }
-        }
 
         public int Price
         {
@@ -65,6 +53,54 @@ namespace BumBumClicker.ViewModels.ItemViewModel
                 {
                     model.Price = value;
                     OnPropertyChanged(nameof(Price));
+                }
+            }
+        }
+
+        public int Production
+        {
+            get
+            {
+                return this.model.Production;
+            }
+            set
+            {
+                if (this.model.Production != value)
+                {
+                    this.model.Production = value;
+                    this.OnPropertyChanged(nameof(Production));
+                }
+            }
+        }
+
+        public string Description
+        {
+            get
+            {
+                return this.model.Description;
+            }
+            set
+            {
+                if (this.model.Description != value)
+                {
+                    this.model.Description = value;
+                    this.OnPropertyChanged((nameof(Description)));
+                }
+            }
+        }
+
+        public bool CanBuy
+        {
+            get
+            {
+                return !this.model.Owned;
+            }
+            set
+            {
+                if (this.model.Owned != value)
+                {
+                    this.model.Owned = value;
+                    this.OnPropertyChanged(nameof(CanBuy));
                 }
             }
         }

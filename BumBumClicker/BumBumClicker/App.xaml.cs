@@ -16,6 +16,8 @@ namespace BumBumClicker
 
         private static UserDatabaseController userDatabase;
 
+        private static BumsDatabaseController bumsDatabase;
+
 		public App ()
 		{
 			InitializeComponent();
@@ -55,6 +57,16 @@ namespace BumBumClicker
                 if(buildingDatabase == null)
                     buildingDatabase = new BuildingDatabaseController();
                 return buildingDatabase;
+            }
+        }
+
+        public static BumsDatabaseController BumsDatabase
+        {
+            get
+            {
+                if (bumsDatabase == null)
+                    bumsDatabase = new BumsDatabaseController();
+                return bumsDatabase;
             }
         }
 	}

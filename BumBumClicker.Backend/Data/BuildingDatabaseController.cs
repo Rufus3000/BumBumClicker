@@ -23,14 +23,16 @@ namespace BumBumClicker.Backend.Data
         {
             this.database = DependencyService.Get<ISQLite>().GetConnection();
             this.database.CreateTable<Building>();
-
+            /*
             Building building = new Building();
-            building.Title = "Krumpáč";
+            building.Title = "Továrna";
             building.Description = "Nic";
             building.Owned = false;
             building.Price = 10;
-            building.Production = 10;
+            building.Production = 20;
+
             this.database.Insert(building);
+            */
         }
 
         public Building[] GetBuildings()
@@ -52,11 +54,38 @@ namespace BumBumClicker.Backend.Data
             }
         }
 
+        public List<int> GetProduction()
+        {
+            lock (locker)
+            {
+                List<int> productions = new List<int>();
+                var comm = this.database.CreateCommand("select * from Building");
+                var all = comm.ExecuteQuery<Building>();
+                var command = this.database.CreateCommand("Select Production from Building where Owned = 1");
+                var production = command.ExecuteQuery<Building>();
+
+                foreach (var product in production)
+                {
+                    productions.Add(product.Production);
+                }
+
+                return productions;
+            }
+        }
+
+        public void BuyBuilding(int id)
+        {
+            lock (locker)
+            {
+                this.database.Execute("UPDATE [Building] SET Owned = 1 WHERE Id ='" + id.ToString() + "'");
+            }
+        }
+
         public int SaveBuilding(Building building)
         {
             lock (locker)
             {
-                if (building.Id != 0)
+                if (this.database.Table<Building>().Count() > 0)
                 {
                     this.database.Update(building);
                     return building.Id;

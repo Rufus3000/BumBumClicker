@@ -9,6 +9,8 @@ namespace BumBumClicker.ViewModels
 {
     using BumBumClicker.Backend.Data;
 
+    using Xamarin.Forms;
+
     class BuildingViewModel : ViewModel
     {
         private List<BuildingItemViewModel> buildings;
@@ -16,6 +18,7 @@ namespace BumBumClicker.ViewModels
         public BuildingViewModel()
         {
             this.LoadData();
+            BuyCommand = new Command<int>(this.BuyCommand_Execute);
         }
 
         public void LoadData()
@@ -33,6 +36,13 @@ namespace BumBumClicker.ViewModels
             Buildings = list;
         }
 
+        private async void BuyCommand_Execute(int id)
+        {
+            App.BuildingDatabase.BuyBuilding(id);
+            this.LoadData();
+        }
+
+        public Command BuyCommand { get; set; }
         public List<BuildingItemViewModel> Buildings { get { return buildings; } set { if (buildings != value) { buildings = value; OnPropertyChanged(nameof(Buildings)); } } }
     }
 }

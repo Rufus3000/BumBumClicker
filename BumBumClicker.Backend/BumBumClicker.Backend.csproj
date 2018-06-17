@@ -62,9 +62,11 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Data\BuildingDatabaseController.cs" />
+    <Compile Include="Data\BumsDatabaseController.cs" />
     <Compile Include="Data\ISQLite.cs" />
     <Compile Include="Data\UserDatabaseController.cs" />
     <Compile Include="Models\Building.cs" />
+    <Compile Include="Models\Bums.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

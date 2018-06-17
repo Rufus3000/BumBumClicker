@@ -40,7 +40,7 @@ namespace BumBumClicker.Backend.Data
         {
             lock (locker)
             {
-                if (user.Id != 0)
+                if (this.database.Table<User>().Count() > 0)
                 {
                     this.database.Update(user);
                     return user.Id;

@@ -7,6 +7,7 @@
              BindingContext="{viewModels:MainPageViewModel}"
              Title="BumBumClicker"
              xmlns:local="clr-namespace:BumBumClicker"
+             BackgroundColor="Black"
              >
     <ContentPage.ToolbarItems>
         <ToolbarItem  Clicked="Store_Clicked" Icon="ic_shop_white_24dp.png"></ToolbarItem>
@@ -15,14 +16,18 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:ImageSourceConverter x:Key="ImageSourceConverter"></converters:ImageSourceConverter>
+            <Style x:Key="TextStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+            </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Bum" WidthRequest="240" HeightRequest="240" CornerRadius="120"
-                        HorizontalOptions="Center" FontSize="Large" Command="{Binding ClickCommand}" />
-                <Label Text="Number of Bums" FontSize="Large" HorizontalOptions="Center" />
-                <Label Text="{Binding Bums}" FontSize="Large" HorizontalOptions="Center"/>
+            <Button Text="Bum" WidthRequest="240" HeightRequest="240" CornerRadius="120" HorizontalOptions="Center" FontSize="Large" Command="{Binding ClickCommand}" />
+            <Label Text="Number of Bums" FontSize="Large" HorizontalOptions="Center" Style="{StaticResource TextStyle}" />
+            <Label Text="{Binding Bums}" FontSize="Large" HorizontalOptions="Center" Style="{StaticResource TextStyle}"/>
+            <Label Text="Bums/Click" FontSize="Medium" HorizontalOptions="Center" Style="{StaticResource TextStyle}"></Label>
+            <Label Text="{Binding BumsPerClick}" FontSize="Medium" HorizontalOptions="Center" Style="{StaticResource TextStyle}"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,18 +4,30 @@
              xmlns:converters="clr-namespace:BumBumClicker.Converters"
              xmlns:viewModels="clr-namespace:BumBumClicker.ViewModels"
              BindingContext="{viewModels:ProfilePageViewModel}"
-             x:Class="BumBumClicker.Views.ProfilePage">
+             Title="Profile"
+             x:Class="BumBumClicker.Views.ProfilePage"
+             BackgroundColor="Black">
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:ImageSourceConverter x:Key="ImageSourceConverter"></converters:ImageSourceConverter>
+            <Style x:Key="TextStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+            </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
-            <Image Source="{Binding ImageData, Converter={StaticResource ImageSourceConverter}}" />
-            <Button Command="{Binding AddPictureCommand}" Text="Přidat obrázek" HorizontalOptions="Center"/>
-            <Entry Text="{Binding Name}"></Entry>
-            <Button Command="{Binding SaveCommand}" Text="Save" HorizontalOptions="Center"/>
+        <StackLayout >
+            <StackLayout Orientation="Horizontal">
+                <Image Source="{Binding ImageData, Converter={StaticResource ImageSourceConverter}}" HeightRequest="120" WidthRequest="120" />
+                <Label Text="{Binding Name}" FontSize="Large" Style="{StaticResource TextStyle}"></Label>
+            </StackLayout>
+            
+            <StackLayout>
+                <Button Command="{Binding AddPictureCommand}" Text="Přidat obrázek" HorizontalOptions="Center"/>
+                <Entry Text="{Binding Name}" TextColor="White"></Entry>
+                <Button Command="{Binding SaveCommand}" Text="Save" HorizontalOptions="Center"/>
+            </StackLayout>
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

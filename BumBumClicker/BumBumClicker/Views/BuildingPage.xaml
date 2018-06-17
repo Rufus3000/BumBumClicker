@@ -3,26 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:BumBumClicker.ViewModels"
              BindingContext="{viewModels:BuildingViewModel}"
-             x:Class="BumBumClicker.Views.BuildingPage">
+             x:Class="BumBumClicker.Views.BuildingPage"
+             x:Name="BuildingPage">
     <ContentPage.Content>
-        <ListView HasUnevenRows="True" x:Name="usersListView" CachingStrategy="RecycleElement" ItemsSource="{Binding Buildings}">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                        <StackLayout Margin="16">
-                            <Image Source="{Binding Image}"></Image>
-                        <StackLayout>
-                            <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Medium"/>
-                            <Label Text="{Binding Subtitle}" FontSize="Small"/>
-                        </StackLayout>
-                        <Label Text="{Binding Price}" FontSize="Medium"></Label>
-
-                        <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Medium"/>
-                        <Label Text="{Binding Subtitle}" FontSize="Small"/>
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-        </ListView>
+            <ListView HasUnevenRows="True" x:Name="usersListView" CachingStrategy="RecycleElement" ItemsSource="{Binding Buildings}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="16">
+                                <Image Source="{Binding Image}"></Image>
+                                <StackLayout>
+                                    <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="Medium"/>
+                                    <Label Text="{Binding Subtitle}" FontSize="Small"/>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Label Text="{Binding Price}" FontSize="Medium"></Label>
+                                    <Button IsEnabled="{Binding CanBuy}" Text="Buy" Command="{Binding Source={x:Reference Name=BuildingPage}, Path=BindingContext.BuyCommand}" CommandParameter="{Binding Id}"></Button>
+                            </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
     </ContentPage.Content>
 </ContentPage>
